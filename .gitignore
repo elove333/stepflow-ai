@@ -1,2 +1,4 @@
-# Ignore environment variables
+.gitignore
+
+# Ignore sensitive environment files
 .env.local
