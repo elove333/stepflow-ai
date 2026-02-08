@@ -321,7 +321,7 @@ class TestPredictEndpoint:
                     "timestamp": i * 0.033,
                     "keypoints": [
                         {"x": 0.5 + i * 0.01, "y": 0.5 + i * 0.01, "confidence": 0.9}
-                        for j in range(17)
+                        for _ in range(17)
                     ]
                 }
                 for i in range(30)  # 1 second of motion at 30fps
